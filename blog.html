@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="viewport" content="with=device-width ,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="universitystyle.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="link/font-awesome-4.7.0/css/font-awesome.css">
+
+    <title>University Website</title>
+  </head>
+
+  <body>
+    <section class="sub-header"> 
+      <nav>
+        <a href="index.html"> <img src="pictures/logo.png"> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2022</h1>
+    </section>
+
+
+    <!-- --------------blog page content------------- -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="pictures/certificate.jpg">
+          <h2>Our Certificate & Online Programs for 2022</h2>
+          <p>Maharshi Dayanand University, ab initio established as Rohtak University, Rohtak,
+             came into existence by an Act No. 25 of 1975 of the Haryana Legislative Assembly 
+             in 1976 with the objective to promote inter-disciplinary higher education and research 
+             in the fields of environmental, ecological and life sciences. It was rechristened as
+              Maharshi Dayanand University in 1977 after the name of a great visionary and social 
+              reformer, Maharshi Dayanand. It had a unitary and residential character in its nascent 
+              stage, but became an affiliating University in November 1978. The University secured the
+               recognition of University Grants Commission – the higher education regulatory body of
+                India - for central Govt. grants in 16 Mar, 1979.</p>
+          <br>
+          <p>For many, online learning has become a way to complete their higher 
+            education in their desired specialization. It has become a boon for working 
+            professionals as well as individuals who have other engagements. They can now
+             easily opt for the best online degree courses India from top universities and
+              complete their study without compromising their busy schedules.</p>
+            <br>
+            <p>Online courses and certifications from Indian Universities have received tremendous
+               support from students from each background. Universities that offer online degrees
+                have eliminated regional and financial obstacles to quality education. Another 
+                significant element of this revolution is the rise in jobs. Skillful trainers and
+                 instructors can extend their scope through online education. Students benefit as
+                  Indian universities providing online degree courses have made quality education
+                   accessible to the multitudes. They can also get the best training from experienced
+                    professors and instructors with the best online degree courses.</p>
+              <br>
+              <p>Online degree courses in India give professionals the ability to develop and upgrade
+                 their skills while working at the same time. This lets them keep updated on new trends 
+                 and innovations. At the same time, certificate courses from Indian Universities are 
+                 time-saving and cost-effective for professionals to pursue their desired careers.</p>
+                <br>
+                <p>Online Courses and certificate offer by our universities are Data Science Courses,
+                  English Speaking Courses,
+                  Full Stack Web Development Courses,
+                  Google Courses,
+                  CAPM Certification,
+                  CompTIA A+ Certification,
+                  Data Analytics Certifications,
+                  Scrum Master Certifications.
+                  </p>
+
+
+
+                  <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="email" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your comment">
+                      </textarea>
+                      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+
+                  </div>
+
+
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAd</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------------Footer-------------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>The University is committed to transform lives and serve the society<br> through
+        pursuit of excellence in teaching, innovation, lifelong learning, cultural
+         enrichment and outreach services.</p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <!-------------Javascript for Toggle Menu------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>
